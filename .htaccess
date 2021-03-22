@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+ RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteCond %{HTTPS} !=on
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+</IfModule>
