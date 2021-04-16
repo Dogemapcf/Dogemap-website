@@ -1,1 +1,0 @@
-http://nominatim.openstreetmap.org/?format=json&addressdetails=1&q=South+110th+Street+%2C+68128+La+Vista&format=json&limit=1
